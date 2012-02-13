@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plone-fi\n"
 "POT-Creation-Date: 2006-12-15 23:20+0000\n"
-"PO-Revision-Date: 2010-08-30 17:39+0200\n"
-"Last-Translator: Jukka Ojaniemi <jukka.ojaniemi@jyu.fi>\n"
+"PO-Revision-Date: 2012-01-24 09:47+0200\n"
+"Last-Translator: Tanja <tanja.sormunen@hexagonit.fi>\n"
 "Language-Team: Finnish\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +52,7 @@ msgstr "huhtikuu"
 #. Default: "Apr"
 #: datetime name of a month, format %b
 msgid "month_apr_abbr"
-msgstr "huh"
+msgstr "huhti"
 
 #. Default: "August"
 #: datetime name of a month, format %B
@@ -72,7 +72,7 @@ msgstr "joulukuu"
 #. Default: "Dec"
 #: datetime name of a month, format %b
 msgid "month_dec_abbr"
-msgstr "jou"
+msgstr "joulu"
 
 #. Default: "February"
 #: datetime name of a month, format %B
@@ -82,7 +82,7 @@ msgstr "helmikuu"
 #. Default: "Feb"
 #: datetime name of a month, format %b
 msgid "month_feb_abbr"
-msgstr "hel"
+msgstr "helmi"
 
 #. Default: "January"
 #: datetime name of a month, format %B
@@ -92,7 +92,7 @@ msgstr "tammikuu"
 #. Default: "Jan"
 #: datetime name of a month, format %b
 msgid "month_jan_abbr"
-msgstr "tam"
+msgstr "tammi"
 
 #. Default: "July"
 #: datetime name of a month, format %B
@@ -102,7 +102,7 @@ msgstr "heinäkuu"
 #. Default: "Jul"
 #: datetime name of a month, format %b
 msgid "month_jul_abbr"
-msgstr "hei"
+msgstr "heinä"
 
 #. Default: "June"
 #: datetime name of a month, format %B
@@ -112,7 +112,7 @@ msgstr "kesäkuu"
 #. Default: "Jun"
 #: datetime name of a month, format %b
 msgid "month_jun_abbr"
-msgstr "kes"
+msgstr "kesä"
 
 #. Default: "March"
 #: datetime name of a month, format %B
@@ -122,7 +122,7 @@ msgstr "maaliskuu"
 #. Default: "Mar"
 #: datetime name of a month, format %b
 msgid "month_mar_abbr"
-msgstr "maa"
+msgstr "maalis"
 
 #. Default: "May"
 #: datetime name of a month, format %B
@@ -132,7 +132,7 @@ msgstr "toukokuu"
 #. Default: "May"
 #: datetime name of a month, format %b
 msgid "month_may_abbr"
-msgstr "tou"
+msgstr "touko"
 
 #. Default: "November"
 #: datetime name of a month, format %B
@@ -142,7 +142,7 @@ msgstr "marraskuu"
 #. Default: "Nov"
 #: datetime name of a month, format %b
 msgid "month_nov_abbr"
-msgstr "mar"
+msgstr "marras"
 
 #. Default: "October"
 #: datetime name of a month, format %B
@@ -152,7 +152,7 @@ msgstr "lokakuu"
 #. Default: "Oct"
 #: datetime name of a month, format %b
 msgid "month_oct_abbr"
-msgstr "lok"
+msgstr "loka"
 
 #. Default: "September"
 #: datetime name of a month, format %B
@@ -162,7 +162,7 @@ msgstr "syyskuu"
 #. Default: "Sep"
 #: datetime name of a month, format %b
 msgid "month_sep_abbr"
-msgstr "syy"
+msgstr "syys"
 
 #. The variables used here are the same as used in the strftime formating.
 #. Supported are ${A}, ${a}, ${B}, ${b}, ${H}, ${I}, ${m}, ${d}, ${M}, ${p},
