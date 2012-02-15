@@ -1640,7 +1640,7 @@ msgstr "Jos kohde on piilotettu sisältöpuusta, näytetäänkö se silti jos ka
 
 #: plone.app.controlpanel/plone/app/controlpanel/skins.py:53
 msgid "If disabled the content icons in folder listings and portlets won't be visible."
-msgstr "Sisältökuvakkeita ei näytetä sovelmissa tai kansioiden sisällysluetteloissa, jos tämä toiminto on sammutettu."
+msgstr "Sisältökuvakkeita ei näytetä sisältöruuduissa tai kansioiden sisällysluetteloissa, jos tämä toiminto on sammutettu."
 
 #: plone.app.controlpanel/plone/app/controlpanel/skins.py:46
 msgid "If enabled all external links in the content region open in a new window."
@@ -4408,7 +4408,7 @@ msgstr "<code>2</code> - Siirry sisältöön"
 #. Default: "There are legacy portlets defined here. Click the button to convert them to new-style portlets."
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:63
 msgid "action_convert_legacy_portlets"
-msgstr "Täällä on vanhan tavan mukaisia sovelmia. Paina nappia muuntaaksesi ne ajanmukaisiksi sovelmiksi."
+msgstr "Täällä on vanhan tavan mukaisia sisältöruutuja. Paina nappia muuntaaksesi ne ajanmukaisiksi sisältöruuduiksi."
 
 #. Default: "(This will delete a total of ${number_of_items_to_delete} items.)"
 #: CMFPlone/skins/plone_forms/delete_confirmation_page.cpt:23
@@ -4990,7 +4990,7 @@ msgstr "Mahdollistaa sivuston navigoinnin rakenteen muokkaamisen."
 #. Default: "Note that to control how the navigation tree is displayed, you should go to \"Manage portlets\" at the root of the site (or wherever a navigation tree portlet has been added) and change its settings directly."
 #: CMFPlone/skins/plone_deprecated/prefs_navigation_form.cpt:32
 msgid "description_navigation_setup_navtree"
-msgstr "Huomaa, että navigointipuun ulkoasu määritetään sivuston päätasolla \"Hallitse sovelmia\"-asetusten kautta."
+msgstr "Huomaa, että navigointipuun ulkoasu määritetään sivuston päätasolla \"Hallitse sisältöruutuja\"-asetusten kautta."
 
 #. Default: "If you do not have an account here, head over to the ${registration_form}."
 #: CMFPlone/skins/plone_login/failsafe_login_form.cpt:34
@@ -5093,7 +5093,7 @@ msgstr "Sivusto toimii \"tuotantotilassa\". Tämä on suositeltu toimintatila k�
 #. Default: "An item's status (also called its review state) determines who can see it. Another way to control the visibility of an item is with its <em class=\"discreet\">Publishing Date</em>. An item is not publicly searchable before its publishing date. This will prevent the item from showing up in portlets and folder listings, although the item will still be available if accessed directly via its URL."
 #: CMFPlone/skins/plone_forms/content_status_history.cpt:51
 msgid "description_publishing_process_short"
-msgstr "Sisällön tila (tai tarkistustila) määrää, kuka voi nähdä kohteen. Voit määrittää näkyvyyttä myös asettamalla sisällölle <em class=\"discreet\">voimaantulopäivän</em>. Sisältö ei ole julkisesti haettavissa ennen sen voimaantulopäivää. Voimaantulopäivä estää sisältöä näkymästä yleisissä näkymissä kuten sovelmissa tai kansiolistauksissa, vaikka sisällön saakin näkyviin tietämällä sivun verkko-osoitteen."
+msgstr "Sisällön tila (tai tarkistustila) määrää, kuka voi nähdä kohteen. Voit määrittää näkyvyyttä myös asettamalla sisällölle <em class=\"discreet\">voimaantulopäivän</em>. Sisältö ei ole julkisesti haettavissa ennen sen voimaantulopäivää. Voimaantulopäivä estää sisältöä näkymästä yleisissä näkymissä kuten sisältöruuduissa tai kansiolistauksissa, vaikka sisällön saakin näkyviin tietämällä sivun verkko-osoitteen."
 
 #. Default: "You are logged in via HTTP authentication (i.e. the Zope Management Interface). In order to log out, you must:"
 #: CMFPlone/skins/plone_login/logged_out.cpt:41
@@ -5874,7 +5874,7 @@ msgstr "Tyyppiasetukset"
 #. Default: "Block/unblock portlets"
 #: plone.app.portlets/plone/app/portlets/browser/templates/edit-manager-contextual.pt:16
 msgid "heading_un_block_portlets"
-msgstr "Estä/vapauta sovelmia"
+msgstr "Estä/vapauta sisältöruutuja"
 
 #. Default: "Undo actions"
 #: CMFPlone/skins/plone_forms/undo_form.pt:20
@@ -6568,7 +6568,7 @@ msgstr "Jos kaikki seuraavat ehdot täyttyvät:"
 #. Default: "Your dashboard is currently empty. Click the <em>edit</em> tab to assign some personal portlets."
 #: plone.app.layout/plone/app/layout/dashboard/dashboard.pt:62
 msgid "info_empty_dashboard"
-msgstr "Kojelautasi on tällä hetkellä tyhjä. Napsauta <em>muokkaa</em>-painiketta hallitaksesi henkilökohtaisia sovelmia."
+msgstr "Kojelautasi on tällä hetkellä tyhjä. Napsauta <em>muokkaa</em>-painiketta hallitaksesi henkilökohtaisia sisältöruutuja."
 
 #. Default: "What is OpenID?"
 #: plone.app.openid/plone/app/openid/skins/ploneopenid/login_form.cpt:106
@@ -7712,7 +7712,7 @@ msgstr "Pääkieli:"
 #. Default: "You are managing the portlets of the default view of a container. If you wanted to manage the portlets of the container itself, ${go_here}."
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:39
 msgid "label_manage_portlets_default_view_container"
-msgstr "Olet muokkaamassa kansion oletusnäkymän sovelmia. Jos haluat muokata itse kansion sovelmia, ${go_here}."
+msgstr "Olet muokkaamassa kansion oletusnäkymän sisältöruutuja. Jos haluat muokata itse kansion sisältöruutuja, ${go_here}."
 
 #. Default: "go here"
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:39
@@ -9032,7 +9032,7 @@ msgstr "Evästetunnistus on poistettu käytöstä. Kirjautumissisältöruutu ei 
 #: plone.app.layout/plone/app/layout/viewlets/manage_portlets_fallback.pt:2
 #: plone.app.portlets/plone/app/portlets/browser/templates/column.pt:9
 msgid "manage_portlets_link"
-msgstr "Hallinnoi sovelmia"
+msgstr "Hallinnoi sisältöruutuja"
 
 #. Default: "You are not allowed to list portal members."
 #: CMFPlone/skins/plone_forms/member_search_results.pt:24
@@ -9813,7 +9813,7 @@ msgstr "Muokkaa kojelautaa"
 #. Default: "Edit Dashboard Portlets for ${group}"
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-group-dashboard.pt:60
 msgid "title_edit_dashboard_group"
-msgstr "Muokkaa kojelauden sovelmia ryhmälle ${group}"
+msgstr "Muokkaa kojelauden sisältöruutuja ryhmälle ${group}"
 
 #. Default: "Edit static text portlet"
 #: plone.portlet.static/plone/portlet/static/static.py:164
@@ -9843,17 +9843,17 @@ msgstr "Sisältösäännöt"
 #. Default: "${contenttype_icon} Manage content type portlets for ${contenttype_name}"
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-content-type.pt:22
 msgid "title_manage_contenttype_portlets"
-msgstr "${contenttype_icon} Hallitse sovelmia sisältötyypille ${contenttype_name}"
+msgstr "${contenttype_icon} Hallitse sisältöruutuja sisältötyypille ${contenttype_name}"
 
 #. Default: "Manage portlets for ${context_title}"
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:20
 msgid "title_manage_contextual_portlets"
-msgstr "Hallinnoi sovelmia kohteelle  ${context_title}"
+msgstr "Hallinnoi sisältöruutuja kohteelle  ${context_title}"
 
 #. Default: "Manage Group Portlets for ${group_name}"
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-group.pt:64
 msgid "title_manage_group_portlets"
-msgstr "Hallinnoi ryhmäsovelmia ryhmälle ${group_name}"
+msgstr "Hallinnoi ryhmäsisältöruutuja ryhmälle ${group_name}"
 
 #. Default: "Move item down"
 #: plone.app.content/plone/app/content/browser/table.pt:104
@@ -10029,7 +10029,7 @@ msgstr "Nykyinen työnkulku:"
 #. Default: "Manage portlets assigned to this content type"
 #: plone.app.controlpanel/plone/app/controlpanel/types.pt:133
 msgid "types_controlpanel_manage_portlets"
-msgstr "Hallinnoi tälle sisältötyyppille määriteltyjä sovelmia"
+msgstr "Hallinnoi tälle sisältötyyppille määriteltyjä sisältöruutuja"
 
 #. Default: "New State"
 #: plone.app.controlpanel/plone/app/controlpanel/types.pt:215
