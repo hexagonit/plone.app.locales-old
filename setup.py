@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '4.0.10'
+version = '4.0.10-add3d3c'
 
 setup(name='plone.app.locales',
       version=version,
