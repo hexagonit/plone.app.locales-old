@@ -1961,7 +1961,7 @@ msgstr "Lokiviesti ${message}"
 #. Default: "Log out"
 #: CMFPlone/profiles/default/actions.xml
 msgid "Log out"
-msgstr "Poistu"
+msgstr "Kirjaudu ulos"
 
 #: plone.app.workflow/plone/app/workflow/browser/sharing.py:228
 msgid "Logged-in users"
