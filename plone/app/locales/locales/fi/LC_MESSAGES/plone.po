@@ -2642,7 +2642,7 @@ msgstr "Muotokuva on poistettu."
 #. Default: "Preferences"
 #: CMFPlone/profiles/default/actions.xml
 msgid "Preferences"
-msgstr "Asetukset"
+msgstr "Omat asetukset"
 
 #: archetypes.querywidget/archetypes/querywidget/skins/querywidget/querywidget.pt:220
 msgid "Preview"
