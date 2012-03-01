@@ -125,7 +125,7 @@ msgstr "- Intranet-työnkulku - sisältö näytetään ainoastaan kirjautuneille
 #. Default: "- Essentially a workflow with no transitions, but has a Published state, so portlets and applications that expect that state will continue to work."
 #: CMFPlone/profiles/default/workflows/one_state_workflow/definition.xml
 msgid "- Essentially a workflow with no transitions, but has a Published state, so portlets and applications that expect that state will continue to work."
-msgstr "Työnkulku, jossa ei ole vaihtuvuustiloja. Sisältää pelkästään Julkaistu-tilan, jolloin sisältöruudut ja ohjelmat, jotka odottavat Julkaisu-tilaa, toimivat."
+msgstr "Työnkulku, jossa ei ole vaihtuvuustiloja. Sisältää pelkästään Julkaistu-tilan, jolloin portletit ja ohjelmat, jotka odottavat Julkaisu-tilaa, toimivat."
 
 #. Default: "- Normally used with the Intranet/Extranet workflow on folder types. - Only has two states: Private and Internal Draft."
 #: CMFPlone/profiles/default/workflows/intranet_folder_workflow/definition.xml
@@ -178,7 +178,7 @@ msgstr "Looginen ehto"
 
 #: plone.app.portlets/plone/app/portlets/portlets/classic.py:60
 msgid "A classic portlet allows you to use legacy portlet templates."
-msgstr "Klassinen sisältöruutu mahdollistaa perinteisten sisältöruutujen käytön."
+msgstr "Klassinen portlet mahdollistaa perinteisten portletien käytön."
 
 #: plone.app.contentrules/plone/app/contentrules/actions/copy.py:134
 msgid "A copy action can copy an object to a different folder."
@@ -243,55 +243,55 @@ msgstr "Ehto, jolla valitaan tietyn tyyppistä sisältöä."
 
 #: plone.portlet.static/plone/portlet/static/profiles/default/portlets.xml
 msgid "A portlet which can display static HTML text."
-msgstr "Staattista HTML-tekstiä näyttävä sisältöruutu."
+msgstr "Staattista HTML-tekstiä näyttävä portlet."
 
 #: CMFPlone/profiles/default/portlets.xml
 msgid "A portlet which can receive and render an RSS feed."
-msgstr "RSS-syötteen näyttävä sisältöruutu."
+msgstr "RSS-syötteen näyttävä portlet."
 
 #: CMFPlone/profiles/default/portlets.xml
 msgid "A portlet which can render a calendar."
-msgstr "Kalenterin näyttävä sisältöruutu."
+msgstr "Kalenterin näyttävä portlet."
 
 #: CMFPlone/profiles/default/portlets.xml
 msgid "A portlet which can render a classic template-based portlet"
-msgstr "Vanhan sivupohja-tyyppisen sisältöruudun näyttävä sisältöruutu"
+msgstr "Vanhan sivupohja-tyyppisen portletin näyttävä portlet"
 
 #: CMFPlone/profiles/default/portlets.xml
 msgid "A portlet which can render a listing of recent events"
-msgstr "Viimeisimmät tapahtumat näyttävä sisältöruutu"
+msgstr "Viimeisimmät tapahtumat näyttävä portlet"
 
 #: CMFPlone/profiles/default/portlets.xml
 msgid "A portlet which can render a listing of recent news"
-msgstr "Viimeisimmät uutiset näyttävä sisältöruutu"
+msgstr "Viimeisimmät uutiset näyttävä portlet"
 
 #: CMFPlone/profiles/default/portlets.xml
 msgid "A portlet which can render a listing of recently changed items."
-msgstr "Viimeksi muutetut kohteet näyttävä sisältöruutu."
+msgstr "Viimeksi muutetut kohteet näyttävä portlet."
 
 #: CMFPlone/profiles/default/portlets.xml
 msgid "A portlet which can render a listing on the review queue."
-msgstr "Tarkistettavana olevat kohteet listaava sisältöruutu."
+msgstr "Tarkistettavana olevat kohteet listaava portlet."
 
 #: CMFPlone/profiles/default/portlets.xml
 msgid "A portlet which can render a log-in box"
-msgstr "Kirjautumislaatikon näyttävä sisältöruutu"
+msgstr "Kirjautumislaatikon näyttävä portlet"
 
 #: CMFPlone/profiles/default/portlets.xml
 msgid "A portlet which can render a navigation tree"
-msgstr "Sisältöpuun näyttävä sisältöruutu"
+msgstr "Sisältöpuun näyttävä portlet"
 
 #: plone.app.openid/plone/app/openid/profiles/default/portlets.xml
 msgid "A portlet which can render an OpenID log-in box"
-msgstr "OpenId kirjautumislaatikon näyttävä sisältöruutu"
+msgstr "OpenId kirjautumislaatikon näyttävä portlet"
 
 #: plone.portlet.collection/plone/portlet/collection/profiles/default/portlets.xml
 msgid "A portlet which displays the results of a collection query"
-msgstr "Kokoelman sisällön näyttävä sisältöruutu"
+msgstr "Kokoelman sisällön näyttävä portlet"
 
 #: CMFPlone/profiles/default/portlets.xml
 msgid "A portlet which shows a search box."
-msgstr "Hakulaatikon näyttävä sisältöruutu."
+msgstr "Hakulaatikon näyttävä portlet."
 
 #. Default: "A reference criterion"
 #: CMFPlone/profiles/default/types/ATReferenceCriterion.xml
@@ -385,12 +385,12 @@ msgstr "Lisää"
 
 #: plone.app.portlets/plone/app/portlets/portlets/classic.py:59
 msgid "Add Classic Portlet"
-msgstr "Lisää klassinen sisältöruutu"
+msgstr "Lisää klassinen portlet"
 
 #: plone.app.collection/plone/app/collection/portlets/collectionportlet.py:138
 #: plone.portlet.collection/plone/portlet/collection/collection.py:198
 msgid "Add Collection Portlet"
-msgstr "Lisää Kokoelmasisältöruutu"
+msgstr "Lisää Kokoelmaportlet"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/portaltype.py:79
 msgid "Add Content Type Condition"
@@ -403,7 +403,7 @@ msgstr "Lisää kopiointitoiminto"
 #: plone.app.event/plone/app/event/portlets/events.py:111
 #: plone.app.portlets/plone/app/portlets/portlets/events.py:114
 msgid "Add Events Portlet"
-msgstr "Lisää Tapahtumasisältöruutu"
+msgstr "Lisää Tapahtumaportlet"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/fileextension.py:72
 msgid "Add File Extension Condition"
@@ -427,11 +427,11 @@ msgstr "Lisää siirtymätoiminto"
 
 #: plone.app.portlets/plone/app/portlets/portlets/navigation.py:219
 msgid "Add Navigation Portlet"
-msgstr "Lisää Navigointisisältöruutu"
+msgstr "Lisää Navigointiportlet"
 
 #: plone.app.portlets/plone/app/portlets/portlets/news.py:94
 msgid "Add News Portlet"
-msgstr "Lisää Uutissisältöruutu"
+msgstr "Lisää Uutisportlet"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/notify.py:72
 msgid "Add Notify Action"
@@ -439,15 +439,15 @@ msgstr "Lisää huomautustoiminto"
 
 #: plone.app.portlets/plone/app/portlets/portlets/rss.py:315
 msgid "Add RSS Portlet"
-msgstr "Lisää RSS-sisältöruutu"
+msgstr "Lisää RSS-portlet"
 
 #: plone.app.portlets/plone/app/portlets/portlets/recent.py:89
 msgid "Add Recent Portlet"
-msgstr "Lisää Viimeaikaisetsisältöruutu"
+msgstr "Lisää Viimeaikaisetportlet"
 
 #: plone.app.portlets/plone/app/portlets/portlets/review.py:96
 msgid "Add Review Portlet"
-msgstr "Lisää Tarkastussisältöruutu"
+msgstr "Lisää Tarkastusportlet"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/role.py:71
 msgid "Add Role Condition"
@@ -459,7 +459,7 @@ msgstr "Lisää sääntö"
 
 #: plone.app.portlets/plone/app/portlets/portlets/search.py:56
 msgid "Add Search Portlet"
-msgstr "Lisää Hakusisältöruutu"
+msgstr "Lisää Hakuportlet"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/talesexpression.py:68
 msgid "Add TALES Expression Condition"
@@ -661,7 +661,7 @@ msgstr "Kalenteri"
 
 #: CMFPlone/profiles/default/portlets.xml
 msgid "Calendar portlet"
-msgstr "Kalenterisisältöruutu"
+msgstr "Kalenteriportlet"
 
 #: plone.app.controlpanel/plone/app/controlpanel/calendar.py:51
 msgid "Calendar settings"
@@ -773,7 +773,7 @@ msgstr "Valitse tyypit, joilla on wiki-toiminnallisuus."
 
 #: CMFPlone/profiles/default/portlets.xml
 msgid "Classic portlet"
-msgstr "Perinteinen sisältöruutu"
+msgstr "Perinteinen portlet"
 
 #. Default: "Clear cache"
 #: plone.app.controlpanel/plone/app/controlpanel/ram.pt:42
@@ -801,7 +801,7 @@ msgstr "Kokoelma haettavista tiedoista"
 
 #: plone.portlet.collection/plone/portlet/collection/profiles/default/portlets.xml
 msgid "Collection portlet"
-msgstr "Kokoelmasisältöruutu"
+msgstr "Kokoelmaportlet"
 
 #: CMFPlone/profiles/default/controlpanel.xml
 msgid "Collections"
@@ -864,7 +864,7 @@ msgstr "Muokkaa elementtiä"
 
 #: plone.app.portlets/plone/app/portlets/browser/formhelper.py:49
 msgid "Configure portlet"
-msgstr "Muokkaa sisältöruutua"
+msgstr "Muokkaa portletia"
 
 #: plone.app.contentrules/plone/app/contentrules/browser/rule.py:19
 msgid "Configure rule"
@@ -1170,12 +1170,12 @@ msgstr "Muokkaa"
 
 #: plone.app.portlets/plone/app/portlets/portlets/classic.py:69
 msgid "Edit Classic Portlet"
-msgstr "Muokkaa klassista sisältöruutua"
+msgstr "Muokkaa klassista portletia"
 
 #: plone.app.collection/plone/app/collection/portlets/collectionportlet.py:151
 #: plone.portlet.collection/plone/portlet/collection/collection.py:211
 msgid "Edit Collection Portlet"
-msgstr "Muokkaa Kokoelmasisältöruutua"
+msgstr "Muokkaa Kokoelmaportletia"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/portaltype.py:93
 msgid "Edit Content Type Condition"
@@ -1188,7 +1188,7 @@ msgstr "Muokkaa kopiointitoimintoa"
 #: plone.app.event/plone/app/event/portlets/events.py:119
 #: plone.app.portlets/plone/app/portlets/portlets/events.py:123
 msgid "Edit Events Portlet"
-msgstr "Muokkaa Tapahtumatsisältöruutua"
+msgstr "Muokkaa Tapahtumatportletia"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/fileextension.py:89
 msgid "Edit File Extension Condition"
@@ -1212,11 +1212,11 @@ msgstr "Muokkaa siirtämistoimintoa"
 
 #: plone.app.portlets/plone/app/portlets/portlets/navigation.py:234
 msgid "Edit Navigation Portlet"
-msgstr "Muokkaa Navigointisisältöruutua"
+msgstr "Muokkaa Navigointiportletia"
 
 #: plone.app.portlets/plone/app/portlets/portlets/news.py:103
 msgid "Edit News Portlet"
-msgstr "Muokkaa uutisssisältöruutua"
+msgstr "Muokkaa uutissportletia"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/notify.py:88
 msgid "Edit Notify Action"
@@ -1224,11 +1224,11 @@ msgstr "Muokkaa huomautustoimintoa"
 
 #: plone.app.portlets/plone/app/portlets/portlets/rss.py:327
 msgid "Edit RSS Portlet"
-msgstr "Muokkaa RSS-sisältöruutua"
+msgstr "Muokkaa RSS-portletia"
 
 #: plone.app.portlets/plone/app/portlets/portlets/recent.py:98
 msgid "Edit Recent Portlet"
-msgstr "Muokkaa Viimeaikaiset-sisältöruutua"
+msgstr "Muokkaa Viimeaikaiset-portletia"
 
 #: plone.app.contentrules/plone/app/contentrules/browser/rule.py:36
 msgid "Edit Rule"
@@ -1236,7 +1236,7 @@ msgstr "Muokkaa sääntöä"
 
 #: plone.app.portlets/plone/app/portlets/portlets/search.py:65
 msgid "Edit Search Portlet"
-msgstr "Muokkaa hakusisältöruutua"
+msgstr "Muokkaa hakuportletia"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/talesexpression.py:83
 msgid "Edit TALES Expression Condition"
@@ -1640,7 +1640,7 @@ msgstr "Jos kohde on piilotettu sisältöpuusta, näytetäänkö se silti jos ka
 
 #: plone.app.controlpanel/plone/app/controlpanel/skins.py:53
 msgid "If disabled the content icons in folder listings and portlets won't be visible."
-msgstr "Sisältökuvakkeita ei näytetä sisältöruuduissa tai kansioiden sisällysluetteloissa, jos tämä toiminto on sammutettu."
+msgstr "Sisältökuvakkeita ei näytetä portleteissa tai kansioiden sisällysluetteloissa, jos tämä toiminto on sammutettu."
 
 #: plone.app.controlpanel/plone/app/controlpanel/skins.py:46
 msgid "If enabled all external links in the content region open in a new window."
@@ -1657,7 +1657,7 @@ msgstr "Jos tämä on valittu, ponnahdusnäkymiä käytetään yksinkertaisissa 
 #: plone.app.collection/plone/app/collection/portlets/collectionportlet.py:40
 #: plone.portlet.collection/plone/portlet/collection/collection.py:57
 msgid "If enabled, a more... link will appear in the footer of the portlet, linking to the underlying Collection."
-msgstr "Jos tämä on valittu, 'lisää...' linkki ilmestyy sisältöruudun alatunnisteeseen linkiksi valittuun kokoelmaan."
+msgstr "Jos tämä on valittu, 'lisää...' linkki ilmestyy portletin alatunnisteeseen linkiksi valittuun kokoelmaan."
 
 #: plone.app.collection/plone/app/collection/portlets/collectionportlet.py:47
 #: plone.portlet.collection/plone/portlet/collection/collection.py:65
@@ -1879,7 +1879,7 @@ msgstr "Anna käyttäjien valita itse salasanansa"
 
 #: plone.app.controlpanel/plone/app/controlpanel/navigation.py:139
 msgid "Lets you control how navigation is constructed in your site. Note that to control how the navigation tree is displayed, you should go to 'Manage portlets' at the root of the site (or wherever a navigation tree portlet has been added) and change its settings directly."
-msgstr "Mahdollistaa sivuston sisältöpuun hallinnoimisen. Huomaa, että muokataksesi sivuston sisältöpuuta suoraan sinun tulee mennä 'hallinnoi sisältöruutuja' näkymään siitä kansiosta, jonne sisältöpuusisältöruutu on lisätty (yleensä sivuston juuritaso)."
+msgstr "Mahdollistaa sivuston sisältöpuun hallinnoimisen. Huomaa, että muokataksesi sivuston sisältöpuuta suoraan sinun tulee mennä 'hallinnoi portleteja' näkymään siitä kansiosta, jonne sisältöpuuportlet on lisätty (yleensä sivuston juuritaso)."
 
 #: plone.app.controlpanel/plone/app/controlpanel/markup.py:222
 msgid "Lets you control what markup is available when editing content."
@@ -1961,7 +1961,7 @@ msgstr "Lokiviesti ${message}"
 #. Default: "Log out"
 #: CMFPlone/profiles/default/actions.xml
 msgid "Log out"
-msgstr "Kirjaudu ulos"
+msgstr "Poistu"
 
 #: plone.app.workflow/plone/app/workflow/browser/sharing.py:228
 msgid "Logged-in users"
@@ -2172,7 +2172,7 @@ msgstr "Muokkauspäivä"
 
 #: plone.app.portlets/plone/app/portlets/browser/formhelper.py:121
 msgid "Modify portlet"
-msgstr "Muokkaa sisältöruutua"
+msgstr "Muokkaa portletia"
 
 #: CMFPlone/skins/plone_templates/calendar_macros.pt:90
 msgid "Month"
@@ -2339,7 +2339,7 @@ msgstr "Kohde poistettu tästä kansiosta"
 
 #: plone.portlet.static/plone/portlet/static/static.py:40
 msgid "Omit portlet border"
-msgstr "Jätä sisältöruudun reunukset pois"
+msgstr "Jätä portletin reunukset pois"
 
 #: CMFPlone/skins/plone_scripts/folder_copy.cpy:23
 msgid "One or more items not copyable."
@@ -2627,13 +2627,13 @@ msgstr "Sisältötyyppiehto"
 
 #: plone.portlet.static/plone/portlet/static/static.py:47
 msgid "Portlet footer"
-msgstr "Sisältöruudun alatunniste"
+msgstr "Portletin alatunniste"
 
 #: plone.app.collection/plone/app/collection/portlets/collectionportlet.py:19
 #: plone.portlet.collection/plone/portlet/collection/collection.py:30
 #: plone.portlet.static/plone/portlet/static/static.py:30
 msgid "Portlet header"
-msgstr "Sisältöruudun ylätunniste"
+msgstr "Portletin ylätunniste"
 
 #: CMFPlone/skins/plone_deprecated/prefs_portrait_delete.py:19
 msgid "Portrait deleted."
@@ -2642,7 +2642,7 @@ msgstr "Muotokuva on poistettu."
 #. Default: "Preferences"
 #: CMFPlone/profiles/default/actions.xml
 msgid "Preferences"
-msgstr "Omat asetukset"
+msgstr "Asetukset"
 
 #: archetypes.querywidget/archetypes/querywidget/skins/querywidget/querywidget.pt:220
 msgid "Preview"
@@ -3330,7 +3330,7 @@ msgstr "Määritä portletissa näytettävien kohteiden enimmäismäärä."
 
 #: plone.portlet.collection/plone/portlet/collection/collection.py:44
 msgid "Specify the maximum number of items to show in the portlet. Leave this blank to show all items."
-msgstr "Määrittele suurin sisältöruudussa näytettävien kohteiden määrä. Jätä tämä tyhjäksi näyttääksesi kaikki kohteet."
+msgstr "Määrittele suurin portletissa näytettävien kohteiden määrä. Jätä tämä tyhjäksi näyttääksesi kaikki kohteet."
 
 #: plone.app.collection/plone/app/collection/collection.py:68
 msgid "Specify the maximum number of items to show."
@@ -3355,7 +3355,7 @@ msgstr "Tila"
 
 #: plone.portlet.static/plone/portlet/static/profiles/default/portlets.xml
 msgid "Static text portlet"
-msgstr "Staattinen tekstisisältöruutu"
+msgstr "Staattinen tekstiportlet"
 
 #: plone.contentrules/plone/contentrules/rule/interfaces.py:115
 msgid "Stop executing rules"
@@ -3675,7 +3675,7 @@ msgstr "Tapahtuman aloitusajankohta"
 
 #: plone.app.portlets/plone/app/portlets/portlets/classic.py:17
 msgid "The template containing the portlet."
-msgstr "Sisältöruudun sisältävä sivupohja."
+msgstr "Portletin sisältävä sivupohja."
 
 #: plone.portlet.static/plone/portlet/static/static.py:36
 msgid "The text to render"
@@ -3810,36 +3810,36 @@ msgstr "Tämä on lisäosien hallintasivu. Alla olevien listojen avulla voit jok
 #: plone.app.collection/plone/app/collection/portlets/collectionportlet.py:139
 #: plone.portlet.collection/plone/portlet/collection/collection.py:199
 msgid "This portlet display a listing of items from a Collection."
-msgstr "Sisältöruutu näyttää listauksen kokoelman kohteista."
+msgstr "Portlet näyttää listauksen kokoelman kohteista."
 
 #: plone.app.portlets/plone/app/portlets/portlets/navigation.py:220
 msgid "This portlet display a navigation tree."
-msgstr "Tämä sisältöruutu näyttää navigointipuun."
+msgstr "Tämä portlet näyttää navigointipuun."
 
 #: plone.app.portlets/plone/app/portlets/portlets/review.py:97
 msgid "This portlet displays a queue of documents awaiting review."
-msgstr "Tämä sisältöruutu näyttää tarkastusjonossa olevat dokumentit."
+msgstr "Tämä portlet näyttää tarkastusjonossa olevat dokumentit."
 
 #: plone.app.portlets/plone/app/portlets/portlets/rss.py:316
 msgid "This portlet displays an RSS feed."
-msgstr "Tämä sisältöruutu näyttää RSS-syötteen."
+msgstr "Tämä portlet näyttää RSS-syötteen."
 
 #: plone.app.portlets/plone/app/portlets/portlets/news.py:95
 msgid "This portlet displays recent News Items."
-msgstr "Tämä sisältöruutu näyttää uusimmat uutiset."
+msgstr "Tämä portlet näyttää uusimmat uutiset."
 
 #: plone.app.portlets/plone/app/portlets/portlets/recent.py:90
 msgid "This portlet displays recently modified content."
-msgstr "Tämä sisältöruutu näyttää viime aikoina muokatun sisällön."
+msgstr "Tämä portlet näyttää viime aikoina muokatun sisällön."
 
 #: plone.app.event/plone/app/event/portlets/events.py:112
 #: plone.app.portlets/plone/app/portlets/portlets/events.py:115
 msgid "This portlet lists upcoming Events."
-msgstr "Tämä sisältöruutu näyttää tulossa olevia Tapahtumia."
+msgstr "Tämä portlet näyttää tulossa olevia Tapahtumia."
 
 #: plone.app.portlets/plone/app/portlets/portlets/search.py:57
 msgid "This portlet shows a search box."
-msgstr "Tämä sisältöruutu näyttää hakukentän."
+msgstr "Tämä portlet näyttää hakukentän."
 
 #: plone.app.controlpanel/plone/app/controlpanel/site.py:25
 msgid "This shows up in the title bar of browsers and in syndication feeds."
@@ -3876,13 +3876,13 @@ msgstr "Nimike"
 
 #: plone.app.portlets/plone/app/portlets/portlets/rss.py:207
 msgid "Title of the portlet.  If omitted, the title of the feed will be used."
-msgstr "Sisältöruudun otsikko. Jos tyhjä, käytetään otsikkona syötteen otsikkoa."
+msgstr "Portletin otsikko. Jos tyhjä, käytetään otsikkona syötteen otsikkoa."
 
 #: plone.app.collection/plone/app/collection/portlets/collectionportlet.py:20
 #: plone.portlet.collection/plone/portlet/collection/collection.py:31
 #: plone.portlet.static/plone/portlet/static/static.py:31
 msgid "Title of the rendered portlet"
-msgstr "Sisältöruudun otsikko"
+msgstr "Portletin otsikko"
 
 #: CMFPlone/skins/plone_prefs/prefs_install_products_form.pt:35
 msgid "To make new add-ons show up here, add them to your buildout configuration, run buildout, and restart the server process. For detailed instructions see ${third_party_product}."
@@ -4120,7 +4120,7 @@ msgstr "Näkymä muutettu."
 #. Default: "View portlet management screen"
 #: plone.app.portlets/plone/app/portlets/browser/templates/column.pt:9
 msgid "View portlet management screen"
-msgstr "Katso sisältöruudun hallintanäkymää"
+msgstr "Katso portletin hallintanäkymää"
 
 #: CMFPlone/browser/templates/plone-overview.pt:36
 msgid "View your Plone site"
@@ -4408,7 +4408,7 @@ msgstr "<code>2</code> - Siirry sisältöön"
 #. Default: "There are legacy portlets defined here. Click the button to convert them to new-style portlets."
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:63
 msgid "action_convert_legacy_portlets"
-msgstr "Täällä on vanhan tavan mukaisia sisältöruutuja. Paina nappia muuntaaksesi ne ajanmukaisiksi sisältöruuduiksi."
+msgstr "Täällä on vanhan tavan mukaisia portleteja. Paina nappia muuntaaksesi ne ajanmukaisiksi portleteiksi."
 
 #. Default: "(This will delete a total of ${number_of_items_to_delete} items.)"
 #: CMFPlone/skins/plone_forms/delete_confirmation_page.cpt:23
@@ -4844,7 +4844,7 @@ msgstr "Tämä sääntö on kytketty seuraaviin paikkoihin."
 #. Default: "Note that content type portlets are normally rendered below context portlets."
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-content-type.pt:39
 msgid "description_contenttype_portlets_below"
-msgstr "Huomaa, että sisältötyyppisisältöruudut näytetään yleensä sijaintikohtaisten sisältöruutujen alapuolella."
+msgstr "Huomaa, että sisältötyyppiportletit näytetään yleensä sijaintikohtaisten portletien alapuolella."
 
 #. Default: "Configuration area for Plone and add-on Products."
 #: plone.app.controlpanel/plone/app/controlpanel/overview.pt:20
@@ -4907,7 +4907,7 @@ msgstr "Täällä voit lisätä ja poistaa ryhmiä sekä käyttäjiä tästä ry
 #. Default: "Note that group portlets are normally rendered below context portlets."
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-group.pt:81
 msgid "description_group_portlets_below"
-msgstr "Huomaa, että ryhmäsisältöruudut näytetään yleensä sisältökohtaisten sisältöruutujen alapuolella."
+msgstr "Huomaa, että ryhmäportletit näytetään yleensä sisältökohtaisten portletien alapuolella."
 
 #. Default: "Groups are logical collections of users, such as departments and business units. Groups are not directly related to permissions on a global level, you normally use Roles for that - and let certain Groups have a particular role."
 #: CMFPlone/skins/plone_deprecated/prefs_groups_overview.cpt:68
@@ -4959,17 +4959,17 @@ msgstr "Voit kirjautua takaisin sisään alla olevaa lomaketta käyttäen."
 #. Default: "The left and right portlet slots will now display only those portlets assigned to this content type. Use the up, down, delete and edit links to manage user portlets. Use the drop-down list to add new portlets."
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-content-type.pt:33
 msgid "description_manage_contenttype_portlets"
-msgstr "Vasemmalla ja oikealla olevat sisältöruutualueet näyttävät nyt vain ne sisältöruudut, jotka on tälle sisältötyypille määritelty. Käytä ylös-, alas-, poista- ja muokkaa-linkkejä hallitaksesi käyttäjäsisältöruutuja. Lisää uusi sisältöruutu pudotusvalikosta sarakkeen ylälaidasta."
+msgstr "Vasemmalla ja oikealla olevat portletalueet näyttävät nyt vain ne portletit, jotka on tälle sisältötyypille määritelty. Käytä ylös-, alas-, poista- ja muokkaa-linkkejä hallitaksesi käyttäjäportleteja. Lisää uusi portlet pudotusvalikosta sarakkeen ylälaidasta."
 
 #. Default: "The portlet columns will first display portlets explicitly assigned in this context. Use the buttons on each portlet to move them up or down, delete or edit them. To add a new portlet, use the drop-down list at the top of the column."
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:46
 msgid "description_manage_contextual_portlets"
-msgstr "Sisältöruutusarakkeet näyttävät vain ne sisältöruudut, jotka on erikseen kytketty tähän sijaintiin. Käytä ylös-, alas-, poista- ja muokkaa-linkkejä hallitaksesi käyttäjäsisältöruutuja. Lisää uusi sisältöruutu pudotusvalikosta sarakkeen ylälaidasta."
+msgstr "Portletsarakkeet näyttävät vain ne portletit, jotka on erikseen kytketty tähän sijaintiin. Käytä ylös-, alas-, poista- ja muokkaa-linkkejä hallitaksesi käyttäjäportleteja. Lisää uusi portlet pudotusvalikosta sarakkeen ylälaidasta."
 
 #. Default: "The left and right portlet slots will now display only those portlets assigned to this group. Use the up, down, delete and edit links to manage user portlets. Use the drop-down list to add new portlets."
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-group.pt:75
 msgid "description_manage_group_portlets"
-msgstr "Vasen ja oikea sisältöruutualue näyttävät nyt vain ne sisältöruudut, jotka on kytketty tähän ryhmään. Käytä ylös-, alas-, poista- ja muokkaa-linkkejä hallitaksesi käyttäjäsisältöruutuja. Lisää uusi sisältöruutu pudotusvalikosta sarakkeen ylälaidasta."
+msgstr "Vasen ja oikea portletalue näyttävät nyt vain ne portletit, jotka on kytketty tähän ryhmään. Käytä ylös-, alas-, poista- ja muokkaa-linkkejä hallitaksesi käyttäjäportleteja. Lisää uusi portlet pudotusvalikosta sarakkeen ylälaidasta."
 
 #. Default: "This search form enables you to find users by specifying one or more search criteria."
 #: CMFPlone/skins/plone_forms/member_search_form.pt:17
@@ -4990,7 +4990,7 @@ msgstr "Mahdollistaa sivuston navigoinnin rakenteen muokkaamisen."
 #. Default: "Note that to control how the navigation tree is displayed, you should go to \"Manage portlets\" at the root of the site (or wherever a navigation tree portlet has been added) and change its settings directly."
 #: CMFPlone/skins/plone_deprecated/prefs_navigation_form.cpt:32
 msgid "description_navigation_setup_navtree"
-msgstr "Huomaa, että navigointipuun ulkoasu määritetään sivuston päätasolla \"Hallitse sisältöruutuja\"-asetusten kautta."
+msgstr "Huomaa, että navigointipuun ulkoasu määritetään sivuston päätasolla \"Hallitse portleteja\"-asetusten kautta."
 
 #. Default: "If you do not have an account here, head over to the ${registration_form}."
 #: CMFPlone/skins/plone_login/failsafe_login_form.cpt:34
@@ -5083,7 +5083,7 @@ msgstr "Muuta henkilön $name tietoja"
 #. Default: "If you wish to block or unblock certain categories of portlets, you can do so using the drop-down boxes. Portlets that are included by these categories are shown below the selection box."
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:53
 msgid "description_portlets_block_unblock"
-msgstr "Estä tai salli tietyn kategorian sisältöruudut käyttämällä pudotusvalikkoa."
+msgstr "Estä tai salli tietyn kategorian portletit käyttämällä pudotusvalikkoa."
 
 #. Default: "You are running in \"production mode\". This is the preferred mode of operation for a live Plone site, but means that some configuration changes will not take effect until your server is restarted or a product refreshed. If this is a development instance, and you want to enable debug mode, stop the server, set 'debug-mode=on' in your buildout.cfg, re-run bin/buildout and then restart the server process."
 #: plone.app.controlpanel/plone/app/controlpanel/overview.pt:129
@@ -5093,7 +5093,7 @@ msgstr "Sivusto toimii \"tuotantotilassa\". Tämä on suositeltu toimintatila k�
 #. Default: "An item's status (also called its review state) determines who can see it. Another way to control the visibility of an item is with its <em class=\"discreet\">Publishing Date</em>. An item is not publicly searchable before its publishing date. This will prevent the item from showing up in portlets and folder listings, although the item will still be available if accessed directly via its URL."
 #: CMFPlone/skins/plone_forms/content_status_history.cpt:51
 msgid "description_publishing_process_short"
-msgstr "Sisällön tila (tai tarkistustila) määrää, kuka voi nähdä kohteen. Voit määrittää näkyvyyttä myös asettamalla sisällölle <em class=\"discreet\">voimaantulopäivän</em>. Sisältö ei ole julkisesti haettavissa ennen sen voimaantulopäivää. Voimaantulopäivä estää sisältöä näkymästä yleisissä näkymissä kuten sisältöruuduissa tai kansiolistauksissa, vaikka sisällön saakin näkyviin tietämällä sivun verkko-osoitteen."
+msgstr "Sisällön tila (tai tarkistustila) määrää, kuka voi nähdä kohteen. Voit määrittää näkyvyyttä myös asettamalla sisällölle <em class=\"discreet\">voimaantulopäivän</em>. Sisältö ei ole julkisesti haettavissa ennen sen voimaantulopäivää. Voimaantulopäivä estää sisältöä näkymästä yleisissä näkymissä kuten portleteissa tai kansiolistauksissa, vaikka sisällön saakin näkyviin tietämällä sivun verkko-osoitteen."
 
 #. Default: "You are logged in via HTTP authentication (i.e. the Zope Management Interface). In order to log out, you must:"
 #: CMFPlone/skins/plone_login/logged_out.cpt:41
@@ -5199,7 +5199,7 @@ msgstr "Plonen ja lisäosien asetukset"
 #. Default: "A portlet which can display static HTML text."
 #: plone.portlet.static/plone/portlet/static/static.py:149
 msgid "description_static_portlet"
-msgstr "Staattista HTML tekstiä näyttävä sisältöruutu."
+msgstr "Staattista HTML tekstiä näyttävä portlet."
 
 #. Default: "If you are still reaching this page after correctly configuring your browser, here are some possible reasons:"
 #: CMFPlone/skins/plone_login/login_failed.cpt:34
@@ -5714,7 +5714,7 @@ msgstr "Odota kunnes sisäänkirjautuminen on valmis"
 #. Default: "Portlets assigned here"
 #: plone.app.portlets/plone/app/portlets/browser/templates/edit-manager-macros.pt:40
 msgid "heading_portlets_assigned_here"
-msgstr "Tähän asetetut sisältöruudut"
+msgstr "Tähän asetetut portletit"
 
 #. Default: "User properties for ${fullname} (${username})"
 #: CMFPlone/skins/plone_deprecated/prefs_user_details.cpt:56
@@ -5874,7 +5874,7 @@ msgstr "Tyyppiasetukset"
 #. Default: "Block/unblock portlets"
 #: plone.app.portlets/plone/app/portlets/browser/templates/edit-manager-contextual.pt:16
 msgid "heading_un_block_portlets"
-msgstr "Estä/vapauta sisältöruutuja"
+msgstr "Estä/vapauta portleteja"
 
 #. Default: "Undo actions"
 #: CMFPlone/skins/plone_forms/undo_form.pt:20
@@ -6568,7 +6568,7 @@ msgstr "Jos kaikki seuraavat ehdot täyttyvät:"
 #. Default: "Your dashboard is currently empty. Click the <em>edit</em> tab to assign some personal portlets."
 #: plone.app.layout/plone/app/layout/dashboard/dashboard.pt:62
 msgid "info_empty_dashboard"
-msgstr "Kojelautasi on tällä hetkellä tyhjä. Napsauta <em>muokkaa</em>-painiketta hallitaksesi henkilökohtaisia sisältöruutuja."
+msgstr "Kojelautasi on tällä hetkellä tyhjä. Napsauta <em>muokkaa</em>-painiketta hallitaksesi henkilökohtaisia portleteja."
 
 #. Default: "What is OpenID?"
 #: plone.app.openid/plone/app/openid/skins/ploneopenid/login_form.cpt:106
@@ -6655,12 +6655,12 @@ msgstr "Lisää uusi käyttäjä"
 #. Default: "Add portlet"
 #: plone.app.portlets/plone/app/portlets/browser/templates/edit-manager-macros.pt:9
 msgid "label_add_portlet"
-msgstr "Lisää sisältöruutu"
+msgstr "Lisää portlet"
 
 #. Default: "Add portlet…"
 #: plone.app.portlets/plone/app/portlets/browser/templates/edit-manager-macros.pt:15
 msgid "label_add_portlet_ellipsis"
-msgstr "Lisää sisältöruutu..."
+msgstr "Lisää portlet..."
 
 #. Default: "Add to the following groups:"
 #: plone.app.users/plone/app/users/browser/register.py:74
@@ -7078,7 +7078,7 @@ msgstr "Sisällön luomiseen osallistuneet avustajat:"
 #. Default: "Convert portlets"
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:71
 msgid "label_convert_portlets"
-msgstr "Muunna sisältöruudut"
+msgstr "Muunna portletit"
 
 #. Default: "Copy exceptions to the event log"
 #: CMFPlone/skins/plone_prefs/prefs_error_log_form.pt:156
@@ -7496,7 +7496,7 @@ msgstr "Ryhmäjäsenyydet"
 #: CMFPlone/skins/plone_deprecated/prefs_group_members.cpt:48
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups_groupdetails.pt:32
 msgid "label_group_portlets"
-msgstr "Ryhmäsisältöruudut"
+msgstr "Ryhmäportletit"
 
 #. Default: "Group Properties"
 #: CMFPlone/skins/plone_deprecated/prefs_group_details.pt:38
@@ -7712,7 +7712,7 @@ msgstr "Pääkieli:"
 #. Default: "You are managing the portlets of the default view of a container. If you wanted to manage the portlets of the container itself, ${go_here}."
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:39
 msgid "label_manage_portlets_default_view_container"
-msgstr "Olet muokkaamassa kansion oletusnäkymän sisältöruutuja. Jos haluat muokata itse kansion sisältöruutuja, ${go_here}."
+msgstr "Olet muokkaamassa kansion oletusnäkymän portleteja. Jos haluat muokata itse kansion portleteja, ${go_here}."
 
 #. Default: "go here"
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:39
@@ -7987,22 +7987,22 @@ msgstr "(Estetty)"
 #. Default: "Portlets"
 #: CMFPlone/skins/plone_prefs/prefs_installed_product_overview.pt:103
 msgid "label_portlets"
-msgstr "Sisältöruudut"
+msgstr "Portletit"
 
 #. Default: "Content type portlets:"
 #: plone.app.portlets/plone/app/portlets/browser/templates/edit-manager-contextual.pt:126
 msgid "label_portlets_content_type_portlets"
-msgstr "Sisältötyyppisisältöruudut:"
+msgstr "Sisältötyyppiportletit:"
 
 #. Default: "Group portlets:"
 #: plone.app.portlets/plone/app/portlets/browser/templates/edit-manager-contextual.pt:73
 msgid "label_portlets_group_portlets"
-msgstr "Ryhmäsisältöruudut:"
+msgstr "Ryhmäportletit:"
 
 #. Default: "Parent portlets:"
 #: plone.app.portlets/plone/app/portlets/browser/templates/edit-manager-contextual.pt:26
 msgid "label_portlets_parent_folders"
-msgstr "Ylätason sisältöruudut:"
+msgstr "Ylätason portletit:"
 
 #. Default: "Portrait"
 #: CMFPlone/skins/plone_deprecated/personalize_form.cpt:346
@@ -9026,13 +9026,13 @@ msgstr "Kun evästetunnistus (cookie authentication) on poissa käytöstä, evä
 #. Default: "Cookie authentication is disabled. Login portlet not available."
 #: plone.app.portlets/plone/app/portlets/portlets/login.pt:124
 msgid "login_portlet_disabled"
-msgstr "Evästetunnistus on poistettu käytöstä. Kirjautumissisältöruutu ei ole käytettävissä."
+msgstr "Evästetunnistus on poistettu käytöstä. Kirjautumisportlet ei ole käytettävissä."
 
 #. Default: "Manage portlets"
 #: plone.app.layout/plone/app/layout/viewlets/manage_portlets_fallback.pt:2
 #: plone.app.portlets/plone/app/portlets/browser/templates/column.pt:9
 msgid "manage_portlets_link"
-msgstr "Hallinnoi sisältöruutuja"
+msgstr "Hallinnoi portleteja"
 
 #. Default: "You are not allowed to list portal members."
 #: CMFPlone/skins/plone_forms/member_search_results.pt:24
@@ -9495,7 +9495,7 @@ msgstr "Haluttua lokitapahtumaa ei löytynyt. Se saattaa olla vanhentunut. Jos k
 #. Default: "There was an error while rendering the portlet."
 #: plone.app.portlets/plone/app/portlets/browser/templates/error_message.pt:16
 msgid "text_error_rendering_portlet"
-msgstr "Sisältöruutua esittäessä tapahtui virhe."
+msgstr "Portletia esittäessä tapahtui virhe."
 
 #. Default: "Your form has not been saved. All changes you have made will be lost."
 #: CMFPlone/browser/jsvariables.py:17
@@ -9689,7 +9689,7 @@ msgstr "Lisää tänne"
 #. Default: "Add static text portlet"
 #: plone.portlet.static/plone/portlet/static/static.py:148
 msgid "title_add_static_portlet"
-msgstr "Lisää staattinen tekstisisältöruutu"
+msgstr "Lisää staattinen tekstiportlet"
 
 #. Default: "Download this event in iCal format"
 #: CMFPlone/skins/plone_content/event_view.pt:149
@@ -9813,12 +9813,12 @@ msgstr "Muokkaa kojelautaa"
 #. Default: "Edit Dashboard Portlets for ${group}"
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-group-dashboard.pt:60
 msgid "title_edit_dashboard_group"
-msgstr "Muokkaa kojelauden sisältöruutuja ryhmälle ${group}"
+msgstr "Muokkaa kojelauden portleteja ryhmälle ${group}"
 
 #. Default: "Edit static text portlet"
 #: plone.portlet.static/plone/portlet/static/static.py:164
 msgid "title_edit_static_portlet"
-msgstr "Muokkaa staattista tekstisisältöruutua"
+msgstr "Muokkaa staattista tekstiportletia"
 
 #. Default: "Front page"
 #: plone.app.layout/plone/app/layout/links/navigation.pt:3
@@ -9833,7 +9833,7 @@ msgstr "Suuri teksti"
 #. Default: "Legacy portlets"
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:61
 msgid "title_legacy_portlets"
-msgstr "Vanhat sisältöruudut"
+msgstr "Vanhat portletit"
 
 #. Default: "Content rules"
 #: plone.app.contentrules/plone/app/contentrules/browser/templates/controlpanel.pt:11
@@ -9843,17 +9843,17 @@ msgstr "Sisältösäännöt"
 #. Default: "${contenttype_icon} Manage content type portlets for ${contenttype_name}"
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-content-type.pt:22
 msgid "title_manage_contenttype_portlets"
-msgstr "${contenttype_icon} Hallitse sisältöruutuja sisältötyypille ${contenttype_name}"
+msgstr "${contenttype_icon} Hallitse portleteja sisältötyypille ${contenttype_name}"
 
 #. Default: "Manage portlets for ${context_title}"
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-contextual.pt:20
 msgid "title_manage_contextual_portlets"
-msgstr "Hallinnoi sisältöruutuja kohteelle  ${context_title}"
+msgstr "Hallinnoi portleteja kohteelle  ${context_title}"
 
 #. Default: "Manage Group Portlets for ${group_name}"
 #: plone.app.portlets/plone/app/portlets/browser/templates/manage-group.pt:64
 msgid "title_manage_group_portlets"
-msgstr "Hallinnoi ryhmäsisältöruutuja ryhmälle ${group_name}"
+msgstr "Hallinnoi ryhmäportleteja ryhmälle ${group_name}"
 
 #. Default: "Move item down"
 #: plone.app.content/plone/app/content/browser/table.pt:104
@@ -9974,7 +9974,7 @@ msgstr "Pieni teksti"
 #. Default: "Static text portlet"
 #: plone.portlet.static/plone/portlet/static/static.py:67
 msgid "title_static_portlet"
-msgstr "Staattinen tekstisisältöruutu"
+msgstr "Staattinen tekstiportlet"
 
 #. Default: "Subscribe to an always-updated RSS feed."
 #: plone.app.search/plone/app/search/search.pt:80
@@ -10029,7 +10029,7 @@ msgstr "Nykyinen työnkulku:"
 #. Default: "Manage portlets assigned to this content type"
 #: plone.app.controlpanel/plone/app/controlpanel/types.pt:133
 msgid "types_controlpanel_manage_portlets"
-msgstr "Hallinnoi tälle sisältötyyppille määriteltyjä sisältöruutuja"
+msgstr "Hallinnoi tälle sisältötyyppille määriteltyjä portleteja"
 
 #. Default: "New State"
 #: plone.app.controlpanel/plone/app/controlpanel/types.pt:215
