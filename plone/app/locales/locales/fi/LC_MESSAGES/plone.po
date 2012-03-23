@@ -5033,7 +5033,7 @@ msgstr "Hakuehtoihin sopivia tuloksia ei löytynyt."
 #. Default: "This folder has no visible items. To add content, press the add button, or paste content from another location."
 #: plone.app.content/plone/app/content/browser/table.pt:15
 msgid "description_no_visible_items_add_paste"
-msgstr "Tässä kansiossa ei ole näkyvää sisältöä. Voit lisätä sisältöä napsauttamalla Lisää-painiketta tai liittämällä muualta kopioitua sisältöä."
+msgstr "Tässä kansiossa ei ole näkyvää sisältöä. Voit lisätä sisältöä napsauttamalla 'Lisää uusi'-painiketta tai liittämällä muualta kopioitua sisältöä."
 
 #. Default: "This type has no workflow. The visibilty of items of this type is determined by the folder they are in."
 #: plone.app.controlpanel/plone/app/controlpanel/types.py:254
