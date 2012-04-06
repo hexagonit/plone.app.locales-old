@@ -9338,7 +9338,7 @@ msgstr "Katso ${site_map}"
 #. Default: "You are receiving this mail because ${fullname} ${from_address} is sending feedback about the site you administer at ${url}."
 #: CMFPlone/skins/plone_templates/site_feedback_template.pt:18
 msgid "site_feedback_mailtemplate_body"
-msgstr "Sait tämän viestin, koska ${fullname} ${from_address} lähetti palautetta ylläpitämästäsi Plone-sivustosta osoitteessa ${url}. Lähetetty viesti on: ${message}"
+msgstr "Sait tämän viestin, koska ${fullname} ${from_address} lähetti palautetta ylläpitämästäsi Plone-sivustosta osoitteessa ${url}."
 
 #. Default: "Small"
 #: CMFPlone/skins/plone_templates/accessibility-info.pt:32
